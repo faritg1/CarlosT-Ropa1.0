@@ -10,7 +10,7 @@ namespace ApiRopa.Profiles
 {
     public class MappingProfiles : Profile
     {
-        protected MappingProfiles()
+        public MappingProfiles()
         {
             CreateMap<Cargo, CargoDto>().ReverseMap();
             CreateMap<Cliente, ClienteDto>().ReverseMap();
