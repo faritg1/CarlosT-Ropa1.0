@@ -10,6 +10,7 @@ namespace Core.Entities
     {
         [Required]
         public string Descripcion { get; set; }
+        
         [Required]
         public int IdTipoEstadoFk { get; set; }
         public TipoEstado TiposEstados { get; set; }

@@ -11,6 +11,6 @@ namespace Core.Entities
         [Required]
         public string Descripcion { get; set; }
 
-        public ICollection<DetalleOrden> DetallesOrdeneness { get; set; }
+        public ICollection<DetalleOrden> DetallesOrdenes { get; set; }
     }
 }
